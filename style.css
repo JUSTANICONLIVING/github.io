@@ -78,7 +78,7 @@ body {
     position: relative;
     background-color: transparent;
     color: var(--accentColor);
-    border: solid var(--accentColor) 2px;
+    border: solid var(--accentColor) 3px;
     border-radius: 10px;
     font-size: 1rem;
     text-align: center;
@@ -93,7 +93,7 @@ body {
 
 @media (hover: hover) {
     .link:hover {
-        background-color: var(--accentColor);
+        background-color: white;
         color: #fff; /* Fallback for older browsers */
         color: rgba(0, 0, 0, 0.5);
     }
