@@ -56,6 +56,15 @@ body {
     border-radius: 50%;
 }
 
+.userLogo, .userLogo img {
+   position: relative;
+    width: 400px;
+    height: 70px;
+    display: block;
+    margin: 10px auto 20px;
+    border-radius: 50%;
+}
+
 .userName {
     color: var(--accentColor);
     font-size: x-large;
