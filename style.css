@@ -62,7 +62,6 @@ body {
     height: 70px;
     display: block;
     margin: 10px auto 20px;
-    border-radius: 50%;
 }
 
 .userName {
@@ -85,7 +84,7 @@ body {
 
 .link {
     position: relative;
-    background-color: transparent;
+    background-color: white;
     color: var(--accentColor);
     border: solid var(--accentColor) 3px;
     border-radius: 10px;
@@ -102,15 +101,13 @@ body {
 
 @media (hover: hover) {
     .link:hover {
-        background-color: white;
+        background-color: black;
         color: #fff; /* Fallback for older browsers */
-        color: rgba(0, 0, 0, 0.5);
     }
 }
 
 .link:active {
-    background-color: var(--accentColor);
+    background-color: #262626;
     color: #fff; /* Fallback for older browsers */
-    color: rgba(0, 0, 0, 0.5);
 }
 
